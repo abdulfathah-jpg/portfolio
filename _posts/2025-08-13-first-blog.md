@@ -6,7 +6,7 @@ categories:
 tags:
   - experiments
   - tests
-image: images/banner_home.jpg
+image: images/IMG-20240921-WA0012.jpg.jpeg
 ---
 
 This is my first blog post!
