@@ -14,17 +14,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: My Portfolio
-email: fulan.fulani@aku.edu
+title: Vignette
+email: ma4694@columbia.edu
 description:
 baseurl: /portfolio/
 url: 
 author:
-  name: Fulan Fulani
+  name: M Abdul Fathah
   twitter:
   picture: images/my_photo.png
-twitter_username:
-github_username: fulanfulani
+twitter_username: @M_Abdul_Fathah
+github_username: abdulfathah-jpg
 logo: # path of site logo, e.g. "/images/logo.png"
 search: # true, false (default)
 search_full_content: false # true, false (default)
