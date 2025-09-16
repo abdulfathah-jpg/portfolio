@@ -2,13 +2,10 @@
 title: "al-Ṯurayyā Gazetteer and Geospatial Model of the Early Islamic World"
 excerpt_separator: "<!--more-->"
 categories:
-  - Synopsis
-  - Geospatial Projects
+  - project1
 tags:
-  - visualization
-  - geodata
-  - geography
-  - early islamic history
+  - Synopsis
+  - Gespatial Projects
 image: images/romanov.png
 ---
 Website: https://althurayya.github.io/#home
