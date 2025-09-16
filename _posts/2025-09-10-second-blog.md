@@ -8,7 +8,9 @@ tags:
   - Gespatial Projects
 image: images/romanov.png
 ---
-Website: https://althurayya.github.io/#home
+[Project Website](https://althurayya.github.io/#home)
+
+<!--more-->
 
 ![a random image]({{site.baseurl}}images/Banner.png)
 
