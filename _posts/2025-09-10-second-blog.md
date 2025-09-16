@@ -5,7 +5,7 @@ categories:
   - project1
 tags:
   - Synopsis
-  - Gespatial Projects
+  - Geospatial Projects
 image: images/romanov.png
 ---
 [Project Website](https://althurayya.github.io/#home)
