@@ -1,5 +1,6 @@
 ---
 title: "About"
+excerpt_separator: "<!--more-->"
 layout: about
 permalink: /about/
 ---
