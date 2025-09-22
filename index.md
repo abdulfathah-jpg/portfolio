@@ -1,4 +1,4 @@
 ---
 layout: home
-image: images/main_banner.avif
+image: images/main_banner.jpg
 ---
