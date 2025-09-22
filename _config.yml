@@ -83,3 +83,4 @@ defaults:
     values:
       layout: post
       read_time: true
+excerpt_separator: "<!--more-->"
