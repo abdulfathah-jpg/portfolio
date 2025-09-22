@@ -6,6 +6,8 @@ permalink: /about/
 
 # My Coordinates
 
+<!--more-->
+
 ![a random image]({{site.baseurl}}images/Profile.jpeg)
 
 I like to think of my life as connected points stitched together by giant oceans and flight paths – the coordinates of a child who was born into a fishing community on South Asia’s southwestern coast of Calicut, who spent a considerable part of his childhood with his expatriate parents in the Arab Gulf, and then moved past the Mediterranean and Atlantic to the hustle and bustle of London and Manhattan. I have always conceived mobilities in directions: when I was a child, I saw the Gulf-going fathers and brothers as moving upwards in a vertical infrastructure of social and economic upliftment symbolized by planes climbing skyward. When I spent my school days in Riyadh, spatiality emerged as both horizontal and the lack of it – of horizontal ‘national’ spaces that ‘expatriates’ should not trespass, of the absence of public commons, of guided mobilities that moved in linear and regulated directions from apartments to schools to malls, pictured by Riyadh’s multi-lane highways. This sense of direction – of movement as something more than geography, as unseen routes of faith, memory, and belonging – continues to shape how I think of migration and religion as academic subjects of interest.
