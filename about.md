@@ -1,6 +1,7 @@
 ---
 title: "About"
 layout: about
+image: images/Profile.jpeg
 ---
 
 # My Coordinates
