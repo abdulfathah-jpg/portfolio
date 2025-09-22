@@ -3,8 +3,6 @@ title: "About"
 layout: about
 ---
 
-![Profile Image](https://github.com/Profile.jpeg)
-
 # My Coordinates
 
 ![a random image]({{site.baseurl}}images/Profile.jpeg)
