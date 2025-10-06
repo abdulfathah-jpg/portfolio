@@ -18,12 +18,6 @@ To many, the learning process of OCR models resembles that of an archetypal chil
 ![Visual representation of usage patterns of particular phrases in Islamic texts]({{site.baseurl}}images/reflective-blog1.jpeg)
 ![Visual representation of usage patterns of particular phrases in Islamic texts]({{site.baseurl}}images/reflective-blog2.jpeg)
 
-<figure>
-  <img src="/assets/images/reflective-blog1.jpeg" alt="Visual representation of usage patterns of particular phrases in Islamic texts">
-  <img src="/assets/images/reflective-blog2.jpeg" alt="Visual representation of usage patterns of particular phrases in Islamic texts">
-  <figcaption><em>Figures 1 & 2:</em> Visual representation of usage patterns of particular phrases in Islamic texts.</figcaption>
-</figure>
-
 Recognizing that we are still far from realizing these, and that a digital humanist as an academic might as well be more reserved to adopt them, we may still list some prospects:
 
 *	discovering non-obvious patterns using detection of regularities and embedding models, for instance, unsupervised clustering of scribal hands that reveal unexpected regional or guild networks
