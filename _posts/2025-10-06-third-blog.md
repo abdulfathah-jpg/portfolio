@@ -17,6 +17,7 @@ To many, the learning process of OCR models resembles that of an archetypal chil
 
 ![Visual representation of usage patterns of particular phrases in Islamic texts]({{site.baseurl}}images/reflective-blog1.jpeg)
 ![Visual representation of usage patterns of particular phrases in Islamic texts]({{site.baseurl}}images/reflective-blog2.jpeg)
+Visual representation of usage patterns of particular phrases in Islamic texts
 
 Recognizing that we are still far from realizing these, and that a digital humanist as an academic might as well be more reserved to adopt them, we may still list some prospects:
 
