@@ -1,5 +1,5 @@
 ---
-title: "Resolving ‘nature versus nurture’ in Machine Leaning!"
+title: "Resolving ‘nature versus nurture’ in Machine Learning!"
 excerpt_separator: "<!--more-->"
 categories:
   - project1
