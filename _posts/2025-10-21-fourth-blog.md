@@ -23,7 +23,7 @@ Consider a Persian manuscript: the original reads
 
 “پادشاه به باغ رفت تا گل‌ها را بو کِشد”
 
-changing the verb and altering meaning. WER still scores it highly because word correspondence isclose. An alternative transcription, semantically faithful, may write
+changing the verb and altering meaning. WER still scores it highly because word correspondence is close. An alternative transcription, semantically faithful, may write
 
 “پادشاهِ به باغِ رفت تا گُل‌ها را بِبَرَد” 
 
