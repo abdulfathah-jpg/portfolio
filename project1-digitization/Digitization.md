@@ -18,12 +18,13 @@ The manuscript was scanned using an overhead document scanner provided by the Ag
 
 For the metadata file created by the group, see [Metadata File](https://raw.githubusercontent.com/abdulfathah-jpg/portfolio/refs/heads/master/project1-digitization/Rasail_Metadata.txt)
 
-For the Table of Contents of the Manuscript in CSV formate, see [Table of Contents](https://raw.githubusercontent.com/https://raw.githubusercontent.com/abdulfathah-jpg/portfolio/refs/heads/master/project1-digitization/Table_of_contents.csv)
+For the Table of Contents of the Manuscript in CSV formate, see 
+[Table of Contents](https://raw.githubusercontent.com/https://raw.githubusercontent.com/abdulfathah-jpg/portfolio/refs/heads/master/project1-digitization/Table_of_contents.csv)
 
 
 The next crucial stage involved uploading the cleaned image set to eScriptorium, an open-source platform designed for the transcription, annotation, and training of Handwritten Text Recognition (HTR) models. The images were first segmented using a fine-tuned model previously trained on a sample set of pages whose text regions had been manually annotated and labeled. Region labeling followed a region annotation guideline curated specifically for this project, drawing on the SegmOnto standard for Zones to ensure consistency and interoperability. 
 
-[Segmentation Guidelines](https://github.com/abdulfathah-jpg/portfolio/blob/master/project1-digitization/segmentation_guidelines_DH25.pdf)
+For the segmentation guidelines produced by the class, see [Segmentation Guidelines](https://github.com/abdulfathah-jpg/portfolio/blob/master/project1-digitization/segmentation_guidelines_DH25.pdf)
 
 Following a modestly successful segmentation process, the manuscript’s Persian text was transcribed using the Kraken model gen2-print-n7m5-union-ft_best, which achieved the highest average Character Accuracy Rate (CAR) of 0.83 among four models tested. This evaluation was performed through a Python script employing the error_rate function to compute Character Error Rate (CER) and Word Error Rate (WER) against the ground-truth transcription, with mean values used to compare model performance. For digitizing Persian manuscripts, character-level metrics (CAR/CER) offer a more reliable performance indicator than word-level metrics (WER), given the frequent orthographic variations, ligatures, and damaged glyphs characteristic of such texts. The final transcribed outputs were then exported as both image overlays and XML files ready for further curation and digital publication.
 
