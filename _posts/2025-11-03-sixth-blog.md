@@ -10,11 +10,7 @@ tags:
 image: images/nlp.jpg
 ---
 
-<!-- index.md or post.md -->
-<div class="highlight">
-</div>
-
-I consulted the illustrious and ever-wise ChatGPT to shed light on the meanings of these two concepts, and I also referred to two separate Data Camp blog posts (one on [NLP](https://www.datacamp.com/blog/what-is-natural-language-processing) and the other on [NER](https://www.datacamp.com/blog/what-is-named-entity-recognition-ner)) explaining these concepts. Yet, as a conscious seeker of knowledge who does not indulge in uncritical taqlīd, this blog post engage in a careful and reasoned evaluation (ijtihād) of both sources
+I consulted the illustrious and ever-wise ChatGPT to shed light on the meanings of Natural Language Processing (NLP) and Named Entity Recognition (NER), and I also referred to two separate Data Camp blog posts (one on [NLP](https://www.datacamp.com/blog/what-is-natural-language-processing) and the other on [NER](https://www.datacamp.com/blog/what-is-named-entity-recognition-ner)) explaining these concepts. Yet, as a conscious seeker of knowledge who does not indulge in uncritical taqlīd, this blog post engage in a careful and reasoned evaluation (ijtihād) of both sources
 
 <!--more-->
 
@@ -39,7 +35,6 @@ The DataCamp article stands out in its explanation of Named Entity Recognition (
 Regarding ChatGPT, although it touches on the basic workings of NER and briefly references rule-based and machine learning approaches, it does not offer the step-by-step framework that DataCamp clearly lays out. For instance, it does not detail the five-step NER pipeline or elaborate on how contextual or post-processing stages gradually resolve ambiguity. I particularly feel that the code examples are presented without much explanation or contextual guidance - they are visually pleasing, but a beginner might find it hard to follow what is going on behind the scenes. The examples are appealing for Digital Humanities students who enjoy seeing code outputs, but they lack the conceptual background to fully appreciate the process. ChatGPT oversimplifies certain aspects, like entity ambiguity or nested entities, and completely misses the discussion of challenges and future directions such as domain adaptation, annotation issues, or ethical implications. 
 
 Nevertheless, ChatGPT excels in several ways that DataCamp does not. One of them is certainly its inclusion of direct, runnable code using spaCy and Hugging Face Transformers. This hands-on demonstration bridges the gap between theory and implementation and is especially useful for students eager to experiment. Additionally, ChatGPT adds a comparison table between two illustrated libraries and outline their strengths and weaknesses. It shows the real-world relevance of different tools and provides guidance on which to choose for specific use cases. The workflow presentation, showing how a model processes text step-by-step, is also more immediate and exciting.
-
 
 Choosing between the DataCamp post and ChatGPT’s explanation is difficult, as both serve different learning preferences and appeals. However, for this discussion of NER, I would ultimately choose DataCamp. ChatGPT’s approach is concise, modern, and implementation-oriented, but DataCamp provides the conceptual foundation and real-world framing that make the understanding of NER both deeper and more durable. It also gives a more rounded understanding of how NER fits into the larger NLP ecosystem.
 
