@@ -40,5 +40,6 @@ Regarding ChatGPT, although it touches on the basic workings of NER and briefly 
 
 Nevertheless, ChatGPT excels in several ways that DataCamp does not. One of them is certainly its inclusion of direct, runnable code using spaCy and Hugging Face Transformers. This hands-on demonstration bridges the gap between theory and implementation and is especially useful for students eager to experiment. Additionally, ChatGPT adds a comparison table between two illustrated libraries and outline their strengths and weaknesses. It shows the real-world relevance of different tools and provides guidance on which to choose for specific use cases. The workflow presentation, showing how a model processes text step-by-step, is also more immediate and exciting.
 
+
 Choosing between the DataCamp post and ChatGPT’s explanation is difficult, as both serve different learning preferences and appeals. However, for this discussion of NER, I would ultimately choose DataCamp. ChatGPT’s approach is concise, modern, and implementation-oriented, but DataCamp provides the conceptual foundation and real-world framing that make the understanding of NER both deeper and more durable. It also gives a more rounded understanding of how NER fits into the larger NLP ecosystem.
 
