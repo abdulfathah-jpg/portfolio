@@ -10,13 +10,11 @@ tags:
 image: images/nlp.jpg
 ---
 
-I consulted the illustrious and ever-wise ChatGPT to shed light on the meanings of Natural Language Processing (NLP) and Named Entity Recognition (NER), and I also referred to two separate Data Camp blog posts (one on [NLP](https://www.datacamp.com/blog/what-is-natural-language-processing) and the other on [NER](https://www.datacamp.com/blog/what-is-named-entity-recognition-ner)) explaining these concepts. Yet, as a conscious seeker of knowledge who does not indulge in uncritical taqlīd, this blog post engage in a careful and reasoned evaluation (ijtihād) of both sources
+I consulted the illustrious and ever-wise ChatGPT to shed light on the meanings of Natural Language Processing (NLP) and Named Entity Recognition (NER), and I also referred to two separate Data Camp blog posts (one on [NLP](https://www.datacamp.com/blog/what-is-natural-language-processing) and the other on [NER](https://www.datacamp.com/blog/what-is-named-entity-recognition-ner)) explaining these concepts. Yet, as a conscious seeker of knowledge who does not indulge in uncritical taqlīd, this blog post engages in a careful and reasoned evaluation (ijtihād) of both sources.
 
 <!--more-->
 
 In the world of Artificial Intelligence, Natural Language Processing (NLP) fills in to enable computers understand, interpret, and generate human language. As such, they employ the human field of linguistics and its own capacity for machine learning to process and analyze text or speech. They power applications like chatbots, translation systems, sentiment analysis, information extraction, and contribute to a smoother and productive intersection of human and mechanical world. Within NLP, Named Entity Recognition (NER) identifies and classifies key pieces of information such as names of people, organizations, locations, dates, monetary values, and more within text. Essentially, they transform unstructured text into structured data for computational analyses.
-
-I consulted the illustrious and ever-wise ChatGPT to shed light on the meanings of these two concepts, and I also referred to two separate Data Camp blog posts (one on [NLP](https://www.datacamp.com/blog/what-is-natural-language-processing) and the other on [NER](https://www.datacamp.com/blog/what-is-named-entity-recognition-ner)) explaining these concepts. Yet, as a conscious seeker of knowledge who does not indulge in uncritical taqlīd, below I engage in a careful and reasoned evaluation (ijtihād) of both sources.
 
 ## Natural Language Processing (NLP)
 
