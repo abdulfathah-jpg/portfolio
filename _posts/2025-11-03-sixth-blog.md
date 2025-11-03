@@ -4,6 +4,7 @@ excerpt_separator: "<!--more-->"
 categories:
   - project1
 tags:
+  - Projects
   - Evalaution
   - Machine Learning
 image: images/nlp.jpg
