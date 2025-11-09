@@ -20,13 +20,13 @@ Can we detect a historical trend in how many UNESCO World Heritage sites’ offi
 
 2.	Keyword search (hypothesis): We marked a site as “Islam-related” if its description contains any of the words: mosque, muslim, or islam (case-insensitive).
             
-            *	Important caveat: the presence of these words is an imperfect proxy. Some relevant sites might not use those words in the description; some mentions might be incidental (e.g., a comparative remark, or mention of a mosque in passing). So, there is a margin of error.
+    *	Important caveat: the presence of these words is an imperfect proxy. Some relevant sites might not use those words in the description; some mentions might be incidental (e.g., a comparative remark, or mention of a mosque in passing). So, there is a margin of error.
 
 3.  Two counts:
              
-            *	Absolute: number of sites per year with any keyword match.
+    *	Absolute: number of sites per year with any keyword match.
 
-            *	Relative: percentage of that year’s newly inscribed sites that match the keyword. This controls for years with unusually many or few inscriptions.
+    * Relative: percentage of that year’s newly inscribed sites that match the keyword. This controls for years with unusually many or few inscriptions.
 
 4.	Smoothing: To see medium-term trends, we grouped years into five-year bins, summed the yearly percentages in each bin and then divided by the actual number of years that contributed data to that bin (some bins lack one or more years). This creates a true five-year average percentage for each bin.
 
