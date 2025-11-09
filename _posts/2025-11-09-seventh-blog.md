@@ -56,21 +56,21 @@ When looking at specific years, 1985 and 2003 stand out as peaks - around 30% an
 
 ## Historical Interpretation: Why These Patterns?
 
-### 1. Early Growth (1978–1987): Expansion
+#### 1. Early Growth (1978–1987): Expansion
 
 The initial rise in Islamic-related World Heritage listings during the mid-1980s reflected UNESCO’s maturation phase. The World Heritage Convention (1972) was still young, but by the early 1980s the nomination process had stabilized. Under Director-General Amadou-Mahtar M’Bow (1974–1987), UNESCO sought greater geographic balance, countering its early Eurocentrism.
 
 Meanwhile, Muslim-majority countries such as Morocco, Egypt, Iran, Turkey, Pakistan, and Yemen began using heritage nominations as tools of cultural diplomacy and postcolonial identity-building. The 1979 Iranian Revolution sparked a broader Islamic cultural revival, prompting restoration of key cities like Fez, Kairouan, Lahore, and Sana’a. Combined with oil wealth and the creation of ISESCO (1982), these efforts coincided with UNESCO’s growing recognition of living urban environments, a model that fit Islamic medinas and mosques particularly well.
 
-### 2. The Decline (Late 1980s–1990s): Diversification
+#### 2. The Decline (Late 1980s–1990s): Diversification
 
 The drop around 1988 came as UNESCO broadened its focus to include natural, industrial, and non-Islamic sites. It was seeking greater global balance after many key Islamic sites were already listed. At the same time, budget cuts and the withdrawal of the U.S. and U.K. (1984–1997) from UNESCO reduced resources. This slowed down new nominations from developing Islamic countries that relied on UNESCO’s support.
 
-### 3. Resurgence (Early 2000s): Global Attention to the Islamic World
+#### 3. Resurgence (Early 2000s): Global Attention to the Islamic World
 
 The sharp rebound in the early 2000s coincides with a period of intense global focus on the Islamic world following 9/11 and the “War on Terror.” While this attention was political, it also spurred academic, cultural, and preservationist interest in Islamic heritage. UNESCO, emphasizing cultural dialogue and mutual understanding, supported more nominations from Muslim-majority countries
 
-### Recent Years (2010s–2020s): Renewed Balance
+#### Recent Years (2010s–2020s): Renewed Balance
 
 In recent decades, the percentage has gradually decreased again —   likely because of greater regional diversification and increasing attention to Africa, Oceania, and the Americas. By 2023–2027, Islamic-related sites account for roughly 12%, indicating a normalization after earlier peaks.
 
