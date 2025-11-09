@@ -10,7 +10,7 @@ tags:
 image: images/yemenbanner.jpg
 ---
 
-Can we detect a historical trend in how many UNESCO World Heritage sites’ official descriptions mention Islam (via the words “islam,” “muslim,” or “mosque”)? In other words: has the relative share of new World Heritage inscriptions related to the Islamic world changed over time?
+Can we identify historical trends in the share of Islam-related sites among UNESCO World Heritage inscriptions from 1978 to the present? How has the relative representation of the Islamic world changed over time, and what can these patterns reveal about broader historical, political, and institutional shifts within UNESCO and across Muslim-majority countries?
 
 <!--more-->
 
@@ -20,7 +20,7 @@ Can we detect a historical trend in how many UNESCO World Heritage sites’ offi
 
 2.	Keyword search (hypothesis): We marked a site as “Islam-related” if its description contains any of the words: mosque, muslim, or islam (case-insensitive).
             
-    *	Important caveat: the presence of these words is an imperfect proxy. Some relevant sites might not use those words in the description; some mentions might be incidental (e.g., a comparative remark, or mention of a mosque in passing). So, there is a margin of error.
+    *	Important caveat: the presence of these words is an imperfect proxy. Some relevant sites might not use those words in the description; some mentions might be incidental (e.g., a comparative remark, or mention of a mosque in passing). So, there is a margin of error. Moreover, wording in site descriptions may change over time (editing conventions, translation changes, or differences in who writes the description). This can affect the the number of mentions independent of real heritage prioritization.
 
 3.  Two counts:
              
@@ -30,7 +30,7 @@ Can we detect a historical trend in how many UNESCO World Heritage sites’ offi
 
 4.	Smoothing: To see medium-term trends, we grouped years into five-year bins, summed the yearly percentages in each bin and then divided by the actual number of years that contributed data to that bin (some bins lack one or more years). This creates a true five-year average percentage for each bin.
 
-5.	Visualization: We plotted the five-year averages as a bar chart with labels like 1978–1982, 1983–1987, etc. The bar chart makes temporal shifts immediately visible. 
+5.	Visualization: We plotted the five-year averages as a bar chart with labels like 1978–1982, 1983–1987, etc. The bar chart plotted in five-year averages makes temporal shifts immediately visible. However, in this case, individual years with fewer or higher percentages can swing the average five-year percentages dramatically. To tackle this problem, we often refer to individual year data for more nuance in the argument.
 
 A more detailed workflow of the process could be viwed in the [Google Collab Platform](https://colab.research.google.com/drive/1bacC14g2-toGkpJajazivGi-H1DGQPqp?authuser=1#scrollTo=0HMqajL5r2Wn)
 
@@ -55,6 +55,8 @@ Our bar chart result reveals a fascinating and non-linear pattern:
 When looking at specific years, 1985 and 2003 stand out as peaks - around 30% and 29% of all sites added - while 1994, 1998, and 2005 marked lows, sites related to Islam accounted for only 3% of all sites.
 
 ## Historical Interpretation: Why These Patterns?
+
+The fluctuations in the chart is not random, they mirror larger historical, political, and institutional shifts within UNESCO and across the Islamic world.
 
 #### 1. Early Growth (1978–1987): Expansion
 
