@@ -7,10 +7,10 @@ tags:
   - Projects
   - Heritage
   - Machine Learning
-image: images/nlp.jpg
+image: images/yemenbanner.jpg
 ---
 
-Can we detect a historical trend in how many UNESCO World Heritage sites’ official descriptions mention Islam (via the words “islam,” “muslim,” or “mosque”)? In other words: has the relative share of new World Heritage inscriptions that reference the Islamic world changed over time?
+Can we detect a historical trend in how many UNESCO World Heritage sites’ official descriptions mention Islam (via the words “islam,” “muslim,” or “mosque”)? In other words: has the relative share of new World Heritage inscriptions related to the Islamic world changed over time?
 
 <!--more-->
 
@@ -33,6 +33,10 @@ Can we detect a historical trend in how many UNESCO World Heritage sites’ offi
 5.	Visualization: We plotted the five-year averages as a bar chart with labels like 1978–1982, 1983–1987, etc. The bar chart makes temporal shifts immediately visible.
 
 A more detailed workflow of the process could be viwed in the [Google Collab Platform](https://colab.research.google.com/drive/1bacC14g2-toGkpJajazivGi-H1DGQPqp?authuser=1#scrollTo=0HMqajL5r2Wn)
+
+![Yearwise (1978-2025) Relative Share of UNESCO Muslim Heritage sites]({{site.baseurl}}images/yearwise_bar.png)
+
+![Five Year Average Share of UNESCO Muslim Heritage sites]({{site.baseurl}}images/fiveyear_bar.png)
 
 ## Trends Across Time
 
