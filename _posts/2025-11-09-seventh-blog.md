@@ -30,7 +30,7 @@ Can we detect a historical trend in how many UNESCO World Heritage sites’ offi
 
 4.	Smoothing: To see medium-term trends, we grouped years into five-year bins, summed the yearly percentages in each bin and then divided by the actual number of years that contributed data to that bin (some bins lack one or more years). This creates a true five-year average percentage for each bin.
 
-5.	Visualization: We plotted the five-year averages as a bar chart with labels like 1978–1982, 1983–1987, etc. The bar chart makes temporal shifts immediately visible.
+5.	Visualization: We plotted the five-year averages as a bar chart with labels like 1978–1982, 1983–1987, etc. The bar chart makes temporal shifts immediately visible. 
 
 A more detailed workflow of the process could be viwed in the [Google Collab Platform](https://colab.research.google.com/drive/1bacC14g2-toGkpJajazivGi-H1DGQPqp?authuser=1#scrollTo=0HMqajL5r2Wn)
 
