@@ -14,6 +14,8 @@ Can we identify historical trends in the share of Islam-related sites among UNES
 
 <!--more-->
 
+We address these questions by using a Python-based workflow that processes and translates the official UNESCO site descriptions into analyzable text data, and visualize their changing proportion. The subsequent discussion interprets these visual results in light of the evolving socio-political landscape.
+
 ## What we did:
 
 1.	Data: We used a local copy of the WHL description files (one text file per site). Each filename begins with a year (e.g. 1978_0001.txt), which we used as the inscription year.
@@ -72,7 +74,7 @@ The drop around 1988 came as UNESCO broadened its focus to include natural, indu
 
 The sharp rebound in the early 2000s coincides with a period of intense global focus on the Islamic world following 9/11 and the “War on Terror.” While this attention was political, it also spurred academic, cultural, and preservationist interest in Islamic heritage. UNESCO, emphasizing cultural dialogue and mutual understanding, supported more nominations from Muslim-majority countries
 
-#### Recent Years (2010s–2020s): Renewed Balance
+#### 4. Recent Years (2010s–2020s): Renewed Balance
 
 In recent decades, the percentage has gradually decreased again —   likely because of greater regional diversification and increasing attention to Africa, Oceania, and the Americas. By 2023–2027, Islamic-related sites account for roughly 12%, indicating a normalization after earlier peaks.
 
