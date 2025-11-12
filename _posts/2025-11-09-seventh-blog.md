@@ -54,7 +54,7 @@ Our bar chart result reveals a fascinating and non-linear pattern:
 
 *	Through the 2010s, Islamic heritage remained prominently represented before declining slightly in the early 2020s to about 12%.
 
-When looking at specific years, 1985 and 2003 stand out as peaks - around 30% and 29% of all sites added - while 1994, 1998, and 2005 marked lows, sites related to Islam accounted for only 3% of all sites.
+When looking at specific years, 1985 and 2003 stand out as peaks - around 30% and 29% of all sites added - while 1994, 1998, and 2025 marked lows, sites related to Islam accounted for only 3% of all sites.
 
 ## Historical Interpretation: Why These Patterns?
 
