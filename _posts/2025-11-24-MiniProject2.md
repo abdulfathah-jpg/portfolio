@@ -7,7 +7,7 @@ tags:
   - Projects
   - Machine Learning
   - Mini Project 2
-image: images/hajj.png
+image: images/hajj.png 
 ---
 
 
