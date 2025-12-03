@@ -77,7 +77,7 @@ I have designed a stepwise workflow to map and analyze the Hamla guidebook.
  	
          6.	Instructive language – forbidden, allowed, rewarding, beneficial, recommended.
  	
-*	Output: Extracted entities are stored as JSON files for analysis, and are used for below processes with QGIS maps, Graphviz networks, and Twine flows for integrated, multi-modal visualization. A glossary will be created for technical terms related to pilgrimage, such as Mīqāt, Ihram, etc., with definitions.
+*	Output: Extracted entities are stored as JSON files and csv files for analysis, and are used for below processes with QGIS maps, Graphviz networks, and Twine flows for integrated, multi-modal visualization. A glossary will be created for technical terms related to pilgrimage, such as Mīqāt, Ihram, etc., with definitions.
   
 4) Spatial Mapping
 
