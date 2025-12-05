@@ -1,7 +1,7 @@
 ---
 title: "My Coordinates"
 layout: about
-permalink: about/
+permalink: /about/
 ---
 
 I like to think of my life as connected points stitched together by giant oceans and flight paths – the coordinates of a child who was born into a fishing community on South Asia’s southwestern coast of Calicut, who spent a considerable part of his childhood with his expatriate parents in the Arab Gulf, and then moved past the Mediterranean and Atlantic to the hustle and bustle of London and Manhattan. 
