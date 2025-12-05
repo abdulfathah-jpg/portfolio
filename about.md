@@ -1,7 +1,7 @@
 ---
 title: "About"
 layout: about
-permalink: /about/
+permalink: about/
 ---
 
 # My Coordinates 
