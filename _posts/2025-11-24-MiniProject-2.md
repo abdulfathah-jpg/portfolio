@@ -21,7 +21,7 @@ In this Digital Humanities Project, I use textual analyses and visual mapping of
 
 The corpus for this research is an internal _hamla_ pilgrimage guidebook used by a particular migrant-run group. It’s a 40-page printed document in a structured layout, with white background, and in a booklet form. This guidebook is not publicly available: organizers deliberately keep it hidden to avoid scrutiny from Saudi authorities who may disapprove of its alternative ritual geographies. Written in Malayalam but littered with Arabic litanies, it contains brief instructions about routes, travel tips, ritual sites, detailed instructions on ritual acts, litanies, and supplication, and some unofficial ziyarah (visitation) practices within Mecca, Medina, and along the journey. The ethnographer has been able to scan the document from the field and compile it into a [PDF file](https://drive.google.com/file/d/1O-R-Gze3qLYc3g7K2bEmPZipYZDVAgRQ/view?usp=sharing).
 
-![The _hamla_ guidebook]({{site.baseurl}}images/guidebook.jpeg)
+![The _hamla_ guidebook]({{site.baseurl}}images/testimage.jpg)
 
 ## Output
 
