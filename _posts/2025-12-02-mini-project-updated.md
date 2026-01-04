@@ -1,12 +1,13 @@
 ---
 title: "Migration of Women from Tajikistan to Moscow, Russia"
-image: /images/Picture 1.jpg
 links:
   - https://tajikistan.iom.int
   - https://www.bbc.com/news/topics/cvjp2jg0p6dt/tajikistan
   - https://www.worldbank.org/en/topic/migration
 projects:
   - project
+excerpt_separator: "<!--more-->"
+image: images/Picture 1.jpg
 ---
 
 
