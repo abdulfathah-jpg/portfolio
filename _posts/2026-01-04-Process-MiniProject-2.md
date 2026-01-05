@@ -11,7 +11,7 @@ image: images/hajj.png
 ---
 
 <!--more-->
-
+ 
 For my mini-project, I am exploring the spatial and ritual mobility of Malayalee migrants in Saudi Arabia who participate in hamlas—informal pilgrimage agencies run by South Asian migrants themselves. My research asks: what places, figures, ritual concepts, emotional registers, instructive language, and religious objects shape their mobility, and how can this mobility be visually presented to narrate and map the pilgrimage experience?
 
 ## Data Corpus
