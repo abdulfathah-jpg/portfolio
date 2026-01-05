@@ -10,6 +10,7 @@ tags:
 image: images/hajj.png 
 ---
 
+"<!--more-->"
 
 For my mini-project, I am exploring the spatial and ritual mobility of Malayalee migrants in Saudi Arabia who participate in hamlas—informal pilgrimage agencies run by South Asian migrants themselves. My research asks: what places, figures, ritual concepts, emotional registers, instructive language, and religious objects shape their mobility, and how can this mobility be visually presented to narrate and map the pilgrimage experience?
 
@@ -21,13 +22,13 @@ The primary corpus is a 40-page internal hamla guidebook, written mostly in Mala
 
 Since the corpus contains mixed Malayalam and Arabic content, OCR was a significant challenge:
 
-#### * Tools tested: Tesseract, Google Lens, Google Docs
+* Tools tested: Tesseract, Google Lens, Google Docs
 
-#### * Outcome: Google Docs OCR performed best overall, handling both scripts relatively well, though struggles arose when Arabic and Malayalam appeared on the same line.
+* Outcome: Google Docs OCR performed best overall, handling both scripts relatively well, though struggles arose when Arabic and Malayalam appeared on the same line.
 
-#### * Issue: Colored pages (cover and introduction) prevented OCR; starting from the first monochrome text page resolved the problem
+* Issue: Colored pages (cover and introduction) prevented OCR; starting from the first monochrome text page resolved the problem
 
-#### * Output: OCRed text saved as a text file
+* Output: OCRed text saved as a text file
 
 ### Manual corrections were necessary:
 
@@ -81,7 +82,7 @@ Extracted:
 
 * Names of Qurʾānic sūras and verses explicitly instructed to be recited
 
-Parsing was based on headings and subheadings to maintain the chronological sequence and procedural stages of the pilgrimage. Regex-based parsing supported multiple heading levels (### |, ### ||, ### |||), keeping subsections nested and enabling section-wise NER extraction.
+Parsing was based on headings and subheadings to maintain the chronological sequence and procedural stages of the pilgrimage. Regex-based parsing supported multiple heading levels (###|, ###||, ###|||), keeping subsections nested and enabling section-wise NER extraction.
 
 ## Place-Name Extraction and Route Preparation (Pre-Visualization Step)
 
@@ -99,7 +100,7 @@ Before spatial visualization, I needed to extract place names in the correct pil
 
 * Start locations and end locations inserted 
 
-#### * Output: chronologically ordered pilgrimage route file (pilgrimage_route1.csv) including section_id, place_name, latitude, and longitude
+* Output: chronologically ordered pilgrimage route file (pilgrimage_route1.csv) including section_id, place_name, latitude, and longitude
 
 ### Encoding Challenges:
 
@@ -119,9 +120,9 @@ This step ensured that the pilgrimage sequence was properly structured and ready
 
 * Problems encountered:
 
-    *  Road layers incomplete or polygonal, missing sacred spaces
+          *  Road layers incomplete or polygonal, missing sacred spaces
 
-    *  Pilgrimage locations not routable using standard GIS network data
+          *  Pilgrimage locations not routable using standard GIS network data
 
 * Routing tools required geometry corrections, snapping, and repeated shortest path calculations
 
@@ -138,8 +139,10 @@ Due to QGIS limitations I implemented OpenRouteService (ORS) for the pilgrimage 
           * Driving → bus travel between cities
 
           * Foot-walking → ritual and mosque movement
+  
 * Output: Generated an interactive, animated [map](file:///Users/MAFmedia1/Downloads/DH25/project_2/pilgrimage_bus_walk_map.html) reflecting spatial and temporal pilgrimage flows
-#### Tools used:
+  
+#### Tools Used:
 
           * Python for scripting API requests and data processing
 
@@ -177,13 +180,14 @@ Due to QGIS limitations I implemented OpenRouteService (ORS) for the pilgrimage 
 
 The next stage focuses on ritual-temporal visualization:
 
-* Represent the Umrah journey as a linear or vertical flowchart showing stages in ritual order
+         * Represent the Umrah journey as a linear or vertical flowchart showing stages in ritual order
 
-* Integrate entities extracted from text: section_id, headings, revered persons, place names, sacred objects and spaces, everyday objects and persons, ritual concepts, instructive language, arabic litanies and recitations
+         * Integrate entities extracted from text: section_id, headings, revered persons, place names, sacred objects and spaces, everyday objects and persons, ritual concepts, instructive language, arabic litanies and recitations
+  
+* Visual forms considered: Sankey diagram or vertical timeline
+  
+* Tools planned: Python libraries such as Matplotlib, Graphviz, or Plotly for creating flow diagrams
+  
+* Purpose: emphasize the pilgrimage as a ritually ordered process, not merely travel in space
 
-#### Visual forms considered: Sankey diagram or vertical timeline
-
-#### Tools planned: Python libraries such as Matplotlib, Graphviz, or Plotly for creating flow diagrams
-
-#### Purpose: emphasize the pilgrimage as a ritually ordered process, not merely travel in space
 
