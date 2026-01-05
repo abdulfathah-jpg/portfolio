@@ -16,7 +16,7 @@ For my mini-project, I am exploring the spatial and ritual mobility of Malayalee
 
 ## Data Corpus
 
-The primary corpus is a 40-page internal hamla guidebook, written mostly in Malayalam with Arabic litanies interspersed. It documents alternative spatial geographies and ritual practices for Umrah that diverge from state-led pilgrimage pathways. The scanned [PDF file](https://drive.google.com/file/d/1O-R-Gze3qLYc3g7K2bEmPZipYZDVAgRQ/view?usp=sharing) was inconsistent in quality, requiring careful OCR and manual correction.
+The primary corpus is a 40-page internal hamla guidebook, written mostly in Malayalam with Arabic litanies interspersed. It documents alternative spatial geographies and ritual practices for Umrah that diverge from state-led pilgrimage pathways. The scanned PDF file was inconsistent in quality, requiring careful OCR and manual correction.
 
 ## OCR and Manual Correction
 
