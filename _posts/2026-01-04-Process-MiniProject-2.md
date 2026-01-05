@@ -138,7 +138,7 @@ Due to QGIS limitations I implemented OpenRouteService (ORS) for the pilgrimage 
           * Driving → bus travel between cities
 
           * Foot-walking → ritual and mosque movement
-
+* Output: Generated an interactive, animated [map](file:///Users/MAFmedia1/Downloads/DH25/project_2/pilgrimage_bus_walk_map.html) reflecting spatial and temporal pilgrimage flows
 #### Tools used:
 
           * Python for scripting API requests and data processing
@@ -169,8 +169,21 @@ Due to QGIS limitations I implemented OpenRouteService (ORS) for the pilgrimage 
 
 ### Challenges Remaining:
 
-Walking and bus paths often run parallel; manual section range assignment is still needed
+* Walking and bus paths often run parallel; manual section range assignment  still need work
 
-Malayalam place names require transliteration for readability
+* Malayalam place names require transliteration for readability. This could be acheived through OpenAI translation endpoint (e.g., gpt-5-translate or gpt-5-xl)
 
-This approach foregrounds travel as a process unfolding over space, rather than static connections between locations.
+## Planned: Pilgrimage Ritual Flow Diagram
+
+The next stage focuses on ritual-temporal visualization:
+
+* Represent the Umrah journey as a linear or vertical flowchart showing stages in ritual order
+
+* Integrate entities extracted from text: section_id, headings, revered persons, place names, sacred objects and spaces, everyday objects and persons, ritual concepts, instructive language, arabic litanies and recitations
+
+#### Visual forms considered: Sankey diagram or vertical timeline
+
+#### Tools planned: Python libraries such as Matplotlib, Graphviz, or Plotly for creating flow diagrams
+
+#### Purpose: emphasize the pilgrimage as a ritually ordered process, not merely travel in space
+
