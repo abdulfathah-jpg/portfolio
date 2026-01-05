@@ -4,7 +4,7 @@ excerpt_separator: "<!--more-->"
 categories:
   - project1
 tags:
-  - Projects
+  - Projects 
   - Machine Learning
   - Mini Project 2
 image: images/hajj.png 
