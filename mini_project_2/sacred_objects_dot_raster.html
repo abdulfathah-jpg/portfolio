@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.1.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "data": {"name": "data-96309f760bf24e67a470074e82042dd1"}, "mark": {"type": "circle", "size": 80}, "encoding": {"tooltip": [{"field": "entity_ml", "type": "nominal"}, {"field": "entity_en", "type": "ordinal"}, {"field": "parent_label", "type": "nominal"}], "x": {"axis": {"labelAngle": 90, "labelFontSize": 14, "labelFontWeight": "bold", "title": "Level-1 Section", "titleFontSize": 16, "titleFontWeight": "bold"}, "field": "parent_label", "sort": ["1 Al-Quds", "2 Umra", "3 Preparation", "4 Jamu\u2019 & Qasr", "5 Miqat", "6 Niyyah", "7 To Makkah", "8 Masjid al-Haram", "9 Ka'ba Sharif", "10 Tawaf", "11 Zamzam", "12 Sa\u2019y", "13 Tawaf Wida'", "14 Masjid an-Nabawi", "15 To Sacred Presence", "16 Jannat al-Baqi'", "17 Mazarat", "18 Important Adhkars", "19 Items to Keep in Travel", "20 A Special Hamla for Malayalis"], "type": "ordinal"}, "y": {"axis": {"labelFontSize": 14, "labelFontWeight": "bold", "title": "Sacred Objects (Transliterated)", "titleFontSize": 16, "titleFontWeight": "bold"}, "field": "entity_en", "sort": ["Golden Spout", "Hajr al-Aswad", "Hujra Sharif", "Ka'ba", "Ka'ba Sharif", "Marwa", "Mataf", "Qabr Sharif", "Quran", "Safa", "Surah Al-Ikhlas", "Surah Al-Kafirun"], "type": "nominal"}}, "height": 360, "title": "Dot Raster Plot of Sacred Objects Mentions", "width": 2000, "$schema": "https://vega.github.io/schema/vega-lite/v6.1.0.json", "datasets": {"data-96309f760bf24e67a470074e82042dd1": [{"entity_en": "Surah Al-Kafirun", "entity_ml": "\u0633\u0648\u064f\u0631\u064e\u0629\u064f \u0627\u0644\u0652\u0643\u064e\u0627\u0641\u0650\u0631\u064f\u0648\u0646\u064e", "parent_jitter": 4.8308560131071605, "parent": 5, "parent_label": "5 Miqat"}, {"entity_en": "Surah Al-Ikhlas", "entity_ml": "\u0633\u0648\u064f\u0631\u064e\u0629\u064f \u0627\u0652\u0644\u0625\u062e\u0652\u0644\u0627\u064e\u0635\u0652", "parent_jitter": 4.790078821374635, "parent": 5, "parent_label": "5 Miqat"}, {"entity_en": "Mataf", "entity_ml": "\u0d2e\u0d24\u0d3e\u0d2b\u0d4d", "parent_jitter": 8.129644005428633, "parent": 8, "parent_label": "8 Masjid al-Haram"}, {"entity_en": "Hajr al-Aswad", "entity_ml": "\u0d39\u0d1c\u0d4d\u0d30\u0d41\u0d7d \u0d05\u0d38\u0d4d\u0d35\u0d26\u0d4d", "parent_jitter": 10.093194308617973, "parent": 10, "parent_label": "10 Tawaf"}, {"entity_en": "Ka'ba", "entity_ml": "\u0d15\u0d3e\u0d2c\u0d4d\u0d2c\u0d4d", "parent_jitter": 10.16907405673471, "parent": 10, "parent_label": "10 Tawaf"}, {"entity_en": "Ka'ba", "entity_ml": "\u0d15\u0d3e\u0d2c\u0d4d\u0d2c\u0d4d", "parent_jitter": 10.186328123301129, "parent": 10, "parent_label": "10 Tawaf"}, {"entity_en": "Ka'ba", "entity_ml": "\u0d15\u0d3e\u0d2c\u0d4d\u0d2c\u0d4d", "parent_jitter": 9.797564106804346, "parent": 10, "parent_label": "10 Tawaf"}, {"entity_en": "Ka'ba Sharif", "entity_ml": "\u0d15\u0d3e\u0d2c \u0d36\u0d30\u0d40\u0d2b\u0d3f\u0d28\u0d4d\u0d31\u0d46", "parent_jitter": 12.074560373073801, "parent": 12, "parent_label": "12 Sa\u2019y"}, {"entity_en": "Quran", "entity_ml": "\u0d16\u0d41\u0d7c\u0d06\u0d7b", "parent_jitter": 11.782624842337983, "parent": 12, "parent_label": "12 Sa\u2019y"}, {"entity_en": "Quran", "entity_ml": "\u0d16\u0d41\u0d7c\u0d06\u0d7b", "parent_jitter": 17.056362629369666, "parent": 17, "parent_label": "17 Mazarat"}, {"entity_en": "Hajr al-Aswad", "entity_ml": "\u0d39\u0d1c\u0d31\u0d41\u0d7d \u0d05\u0d38\u0d4d\u0d35\u0d26\u0d4d", "parent_jitter": 12.22057290296839, "parent": 12, "parent_label": "12 Sa\u2019y"}, {"entity_en": "Safa", "entity_ml": "\u0d38\u0d4d\u0d35\u0d2b\u0d3e", "parent_jitter": 12.122990566497242, "parent": 12, "parent_label": "12 Sa\u2019y"}, {"entity_en": "Marwa", "entity_ml": "\u0d2e\u0d7c\u0d35", "parent_jitter": 11.80049475244995, "parent": 12, "parent_label": "12 Sa\u2019y"}, {"entity_en": "Golden Spout", "entity_ml": "\u0d38\u0d4d\u0d35\u0d7c\u0d23 \u0d2a\u0d3e\u0d24\u0d4d\u0d24\u0d3f", "parent_jitter": 11.820171789131782, "parent": 12, "parent_label": "12 Sa\u2019y"}, {"entity_en": "Hujra Sharif", "entity_ml": "\u0d39\u0d41\u0d1c\u0d4d\u0d31 \u0d36\u0d30\u0d40\u0d2b", "parent_jitter": 15.193594033082146, "parent": 15, "parent_label": "15 To Sacred Presence"}, {"entity_en": "Qabr Sharif", "entity_ml": "\u0d16\u0d2c\u0d7c \u0d36\u0d30\u0d40\u0d2b", "parent_jitter": 14.990297697498214, "parent": 15, "parent_label": "15 To Sacred Presence"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
