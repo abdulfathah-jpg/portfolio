@@ -22,7 +22,7 @@ This project takes up three significant questions:
 
 # Data Corpus
 
-![Sample Page from Corpus]({{site.baseurl}}images/testimage.jpg)
+![Corpus sample]({{site.baseurl}}images/testimage.jpg)
 
 The corpus for this project is an internal hamla pilgrimage guidebook used by a particular Malayalee migrant-run group in Riyadh. It is a 40-page printed document in a structured layout, with a white background and designed as a small booklet. The guidebook is written primarily in Malayalam but is also frequently interspersed with Arabic litanies. It includes brief instructions on travel routes, practical tips, key ritual sites, detailed ritual procedures, litanies, supplications, and some unofficial ziyarah (visitation) practices in Mecca, Medina, and along the journey. The ethnographer scanned the document in the field and compiled it into a PDF. However, the scanning quality was inconsistent due to ethnographic limitations and had implications for optimal OCR accuracy.
 
