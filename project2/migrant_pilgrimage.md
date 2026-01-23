@@ -2,7 +2,7 @@
 title: Migrant Pilgrimage
 permalink: /migrantpilgrimage/
 layout: page
-image: images/Digitization.jpg
+image: images/testimage.jpeg
 ---
 
 <!--more-->
