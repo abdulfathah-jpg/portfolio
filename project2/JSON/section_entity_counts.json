@@ -1,0 +1,776 @@
+{
+  "1": {
+    "revered_persons": 0,
+    "place_names": 1,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 1,
+    "ritual_concepts": 1,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 0
+  },
+  "2": {
+    "revered_persons": 0,
+    "place_names": 1,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 1,
+    "ritual_concepts": 4,
+    "instructive_language": 2,
+    "arabic_litanies_and_recitations": 0
+  },
+  "2.1": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 5,
+    "ritual_concepts": 2,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 0
+  },
+  "3": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 5,
+    "ritual_concepts": 0,
+    "instructive_language": 5,
+    "arabic_litanies_and_recitations": 0
+  },
+  "3.1": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 4,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 2
+  },
+  "3.2": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 2,
+    "instructive_language": 2,
+    "arabic_litanies_and_recitations": 1
+  },
+  "4": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 3,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 0
+  },
+  "4.1": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 5,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 0
+  },
+  "4.1.1": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 1,
+    "ritual_concepts": 2,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 0
+  },
+  "4.1.2": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 4,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 0
+  },
+  "4.2": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 2,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 0
+  },
+  "4.2.1": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 2,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 0
+  },
+  "4.2.1.1": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 4,
+    "instructive_language": 4,
+    "arabic_litanies_and_recitations": 0
+  },
+  "4.2.2": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 5,
+    "instructive_language": 3,
+    "arabic_litanies_and_recitations": 0
+  },
+  "4.2.2.1": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 2,
+    "instructive_language": 2,
+    "arabic_litanies_and_recitations": 0
+  },
+  "4.2.2.2": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 1,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 0
+  },
+  "4.2.2.3": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 1,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 0
+  },
+  "5": {
+    "revered_persons": 0,
+    "place_names": 4,
+    "sacred_objects_and_spaces": 1,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 4,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 0
+  },
+  "5.1": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 9,
+    "ritual_concepts": 4,
+    "instructive_language": 4,
+    "arabic_litanies_and_recitations": 2
+  },
+  "6": {
+    "revered_persons": 0,
+    "place_names": 2,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 3,
+    "ritual_concepts": 5,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 2
+  },
+  "6.1": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 7,
+    "ritual_concepts": 1,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 0
+  },
+  "7": {
+    "revered_persons": 0,
+    "place_names": 1,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 1,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 1
+  },
+  "8": {
+    "revered_persons": 0,
+    "place_names": 4,
+    "sacred_objects_and_spaces": 1,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 1,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 1
+  },
+  "9": {
+    "revered_persons": 2,
+    "place_names": 2,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 1,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "10": {
+    "revered_persons": 1,
+    "place_names": 2,
+    "sacred_objects_and_spaces": 2,
+    "everyday_objects_and_persons": 1,
+    "ritual_concepts": 2,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 0
+  },
+  "10.1": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 0
+  },
+  "10.2": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 2,
+    "ritual_concepts": 5,
+    "instructive_language": 2,
+    "arabic_litanies_and_recitations": 0
+  },
+  "10.3": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 0
+  },
+  "10.3.1": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 15
+  },
+  "10.3.2": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "10.3.3": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "10.3.4": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "10.3.5": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "10.3.6": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "10.3.7": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "10.4": {
+    "revered_persons": 1,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 2,
+    "everyday_objects_and_persons": 1,
+    "ritual_concepts": 4,
+    "instructive_language": 2,
+    "arabic_litanies_and_recitations": 2
+  },
+  "11": {
+    "revered_persons": 1,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 2,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 0
+  },
+  "11.1": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "11.2": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 1,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 1
+  },
+  "12": {
+    "revered_persons": 0,
+    "place_names": 1,
+    "sacred_objects_and_spaces": 4,
+    "everyday_objects_and_persons": 1,
+    "ritual_concepts": 4,
+    "instructive_language": 2,
+    "arabic_litanies_and_recitations": 1
+  },
+  "12.1": {
+    "revered_persons": 0,
+    "place_names": 3,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 1,
+    "instructive_language": 4,
+    "arabic_litanies_and_recitations": 0
+  },
+  "12.2": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 0
+  },
+  "12.2.1": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "12.2.2": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "12.2.3": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "12.2.4": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "12.2.5": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "12.2.6": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 4,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 1
+  },
+  "12.2.7": {
+    "revered_persons": 0,
+    "place_names": 1,
+    "sacred_objects_and_spaces": 1,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 2,
+    "instructive_language": 2,
+    "arabic_litanies_and_recitations": 1
+  },
+  "12.3": {
+    "revered_persons": 0,
+    "place_names": 1,
+    "sacred_objects_and_spaces": 9,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 2,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 0
+  },
+  "13": {
+    "revered_persons": 0,
+    "place_names": 1,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 3,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 0
+  },
+  "13.1": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 2,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 1
+  },
+  "14": {
+    "revered_persons": 2,
+    "place_names": 4,
+    "sacred_objects_and_spaces": 1,
+    "everyday_objects_and_persons": 3,
+    "ritual_concepts": 1,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 0
+  },
+  "15": {
+    "revered_persons": 2,
+    "place_names": 2,
+    "sacred_objects_and_spaces": 2,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 0
+  },
+  "15.1": {
+    "revered_persons": 1,
+    "place_names": 1,
+    "sacred_objects_and_spaces": 1,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 1,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 0
+  },
+  "15.1.1": {
+    "revered_persons": 3,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 5,
+    "instructive_language": 3,
+    "arabic_litanies_and_recitations": 11
+  },
+  "16": {
+    "revered_persons": 25,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 1,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 1,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 1
+  },
+  "17": {
+    "revered_persons": 1,
+    "place_names": 1,
+    "sacred_objects_and_spaces": 1,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 0
+  },
+  "17.1": {
+    "revered_persons": 5,
+    "place_names": 2,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 0
+  },
+  "17.2": {
+    "revered_persons": 3,
+    "place_names": 1,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 0
+  },
+  "17.3": {
+    "revered_persons": 5,
+    "place_names": 5,
+    "sacred_objects_and_spaces": 1,
+    "everyday_objects_and_persons": 1,
+    "ritual_concepts": 1,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 0
+  },
+  "17.4": {
+    "revered_persons": 5,
+    "place_names": 4,
+    "sacred_objects_and_spaces": 2,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 1,
+    "instructive_language": 1,
+    "arabic_litanies_and_recitations": 0
+  },
+  "18": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 0
+  },
+  "18.1": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "18.2": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "18.3": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "18.4": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "18.5": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "18.6": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "18.7": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "18.8": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "18.9": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "18.10": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "18.11": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "18.12": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "18.13": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 0
+  },
+  "18.14": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "18.15": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "18.16": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "18.17": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "18.18": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "18.19": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "18.20": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "18.21": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 0,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 1
+  },
+  "19": {
+    "revered_persons": 0,
+    "place_names": 0,
+    "sacred_objects_and_spaces": 1,
+    "everyday_objects_and_persons": 9,
+    "ritual_concepts": 1,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 0
+  },
+  "20": {
+    "revered_persons": 0,
+    "place_names": 1,
+    "sacred_objects_and_spaces": 0,
+    "everyday_objects_and_persons": 0,
+    "ritual_concepts": 2,
+    "instructive_language": 0,
+    "arabic_litanies_and_recitations": 0
+  }
+}
