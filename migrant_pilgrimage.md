@@ -44,9 +44,9 @@ From this process onwards, the project used Visual Studio Code due to its robust
 
 ## Step 2: Reconstruct Text Hierarchy with a Stack-Based Parser
 
-The problem at this stage is how to transform a flat list of headings (`### |`, ### | |`) into a meaningful, nested tree structure that reflects the pilgrimage's procedural stages. The solution was to use a stack-based approach that processes the document line-by-line, tracking the current heading level.
+The problem at this stage is how to transform a flat list of headings (`### \|’, ### \| |`) into a meaningful, nested tree structure that reflects the pilgrimage's procedural stages. The solution was to use a stack-based approach that processes the document line-by-line, tracking the current heading level.
 
-Whenever Python encounters a new heading, if it is deeper (e.g., ### || after ### |`), it's nested as a child. If it is at the same level as before, the previous sibling node is closed. If it is shallower than before, the parser climbs up the tree and closes child and parent nodes. This technique, which is usually used in compilers and XML tokenizers, allows us to create a clean semantic tree rather than a flat list. 
+Whenever Python encounters a new heading, if it is deeper (e.g., ### \|| after ### \|), it's nested as a child. If it is at the same level as before, the previous sibling node is closed. If it is shallower than before, the parser climbs up the tree and closes child and parent nodes. This technique, which is usually used in compilers and XML tokenizers, allows us to create a clean semantic tree rather than a flat list. 
 
 heading_match = re.match(r'^(###\s+(\|+))\s*(.*)', line)
 
