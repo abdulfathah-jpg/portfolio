@@ -1,4 +1,5 @@
-### The project2 folder contains a README file explaining the folder structure (folder_structure.md), a README file producing a website subpage (migrant_pilgrimage.md), and other important category folders: Code, JSON corpus, and visualization.
+
+### The project2 folder contains a README file explaining the folder structure and other important category folders: Code, JSON corpus, and visualization.
 
 A.	Code: The Code folder includes code written throughout the project. It is further divided into:
 
