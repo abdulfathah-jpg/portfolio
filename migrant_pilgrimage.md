@@ -38,29 +38,29 @@ For OCRing the text corpus, we tested three tools: Tesseract, Google Lens, and G
 
 ### Structural Annotation
 
-The structural annotation of the OCR corpus was done using OpenITI Markdown guidelines for structuring the raw text. These annotations applied four heading levels (e.g., `### \|`), META tags for front/back matter, and paragraphs were flattened to one line each.
+The structural annotation of the OCR corpus was done using OpenITI Markdown guidelines for structuring the raw text. These annotations applied four heading levels (e.g., ### | ), META tags for front/back matter, and paragraphs were flattened to one line each.
 
 From this process onwards, the project used Visual Studio Code due to its robust Python workflow integration and superior handling of bilingual text compared to other editors.
 
 ## Step 2: Reconstruct Text Hierarchy with a Stack-Based Parser
 
-The problem at this stage is how to transform a flat list of headings (`### \|’, ### \| \|`) into a meaningful, nested tree structure that reflects the pilgrimage's procedural stages. The solution was to use a stack-based approach that processes the document line-by-line, tracking the current heading level.
+The problem at this stage is how to transform a flat list of headings (### |, ### || ) into a meaningful, nested tree structure that reflects the pilgrimage's procedural stages. The solution was to use a stack-based approach that processes the document line-by-line, tracking the current heading level.
 
-Whenever Python encounters a new heading, if it is deeper (e.g., ### \|\| after ### \|), it's nested as a child. If it is at the same level as before, the previous sibling node is closed. If it is shallower than before, the parser climbs up the tree and closes child and parent nodes. This technique, which is usually used in compilers and XML tokenizers, allows us to create a clean semantic tree rather than a flat list. 
+Whenever Python encounters a new heading, if it is deeper (e.g., ### || after ### |), it's nested as a child. If it is at the same level as before, the previous sibling node is closed. If it is shallower than before, the parser climbs up the tree and closes child and parent nodes. This technique, which is usually used in compilers and XML tokenizers, allows us to create a clean semantic tree rather than a flat list. 
 
-                 heading_match = re.match(r'^(###\s+(\|+))\s*(.*)', line)
+      heading_match = re.match(r'^(###\s+(\|+))\s*(.*)', line)
 
 ## Step 3: Enriching the Text with Named Entity Recognition
 
 The parsed hierarchical structure in the above step allows for recursive, section-level analysis. Using this structure, the text of each section and subsection was sent to an OpenAl model. A domain-specific prompt was then sent to the model to extract entities into predefined categories, and the structured JSON output was attached back into the hierarchical document.
 
-The Entity Categories extracted for the Malayalam portion of the text were: Revered Persons, Place Names, Sacred Objects, Everyday Objects, Ritual Concepts, Instructive Language
+    The Entity Categories extracted for the Malayalam portion of the text were: Revered Persons, Place Names, Sacred Objects, Everyday Objects, Ritual Concepts, Instructive Language
 
-The Entity Categories extracted for the Arabic portion of the text were: Litanies & Recitations
+   The Entity Categories extracted for the Arabic portion of the text were: Litanies & Recitations
 
 The prompt was constantly updated to provide the best NER result. For instance, this involved 1) listing the Arabic task and Malayalam task separately as Part A and Part B, 2) providing conditions such as to list every entity in its unified noun form (despite appearing different inside phrases due to grammar, inflection, etc) to aggregate the same entities, 3) asking to preserve original script in the JSON result, etc. 
 
-The resultant JSON file showed heading title, heading level, and the whole text under each heading, section id, and entity types. The information, for instance, the small texts now available to read under each heading, was useful to spot-check the performance accuracy of the NER 
+The resultant JSON file (ner_by_section_nested_3.json) showed heading title, heading level, and the whole text under each heading, section id, and entity types. The information, for instance, the small texts now available to read under each heading, was useful to spot-check the performance accuracy of the NER 
 
 # Visualizing Pilgrimage Journey
 
@@ -68,7 +68,7 @@ The objective here was to transform a linear, textual account of a sacred pilgri
 
 ### Choosing the Right Tool for the Terrain
 
-This visualization was first attempted through QGIS. However, this created several problems: the road layers were often polygonal or missing crucial segments, the sacred spaces were not routable since QGIS lacked the required network data, and complex geometry corrections and calculations were constantly required. It was thus concluded that QGIS introduced overhead with limited analytical value
+This visualization was first attempted through QGIS. However, as shown in the image below this created several problems: the road layers were often polygonal or missing crucial segments, the sacred spaces were not routable since QGIS lacked the required network data, and complex geometry corrections and calculations were constantly required. It was thus concluded that QGIS introduced overhead with limited analytical value
 
 ![QGIS sample]({{site.baseurl}}images/qgis_sample.png)
 
@@ -78,7 +78,7 @@ Open Route Services allowed a breakthrough with its free API key available to Gi
 
 ### Structured Data
 
-Before the visualization could be attempted through OpenRouteServices, the place names had to be extracted into structured data. Key locations were identified from the text's headings and subheadings to map the primary stages of the ritual. The text inside these chosen one-level and two-level headings was excluded so that place mentions that come as a result of further descriptions do not complicate the spatial order. Secondly, a manual Gazetteer has to be created for Geocoding, and a PLACE_COORDS dictionary was built by manually sourcing latitude and longitude for each key site from Google Maps. Finally, the nested text structure was flattened into a clean CSV with columns: 'section_id', 'heading', 'place_name', 'latitude', 'longitude'.The initial data was in Malayalam. A challenge faced during the production of CSV was that the final file produced Malayalam text as garbled text (mojibake). The utf-8-sig was used to solve the issue by preserving Unicode and handling the BOM. For accessibility, all place names were manually transliterated into English for map labels and popups. 
+Before the visualization could be attempted through OpenRouteServices, the place names had to be extracted into structured data. Key locations were identified from the text's headings and subheadings to map the primary stages of the ritual. The text inside these chosen one-level and two-level headings was excluded so that place mentions that come as a result of further descriptions do not complicate the spatial order. Secondly, a manual Gazetteer has to be created for Geocoding, and a PLACE_COORDS dictionary was built by manually sourcing latitude and longitude for each key site from Google Maps. Finally, the nested text structure was flattened into a clean CSV with columns: 'section_id', 'heading', 'place_name', 'latitude', 'longitude'.The initial data was in Malayalam. A challenge faced during the production of CSV (ner_with_route_data.json) was that the final file produced Malayalam text as garbled text (mojibake). The utf-8-sig was used to solve the issue by preserving Unicode and handling the BOM. For accessibility, all place names were manually transliterated into English for map labels and popups. 
 
 # Animated Map 
 
@@ -96,17 +96,15 @@ Key design features in the Map included Blue Routes ('bus travel) animated with 
 
 We developed two parallel visualization tracks to move from spatial to structural analysis, and each served a distinct analytical purpose.
 
-A Streamgraph in ThemeRiver showing aggregated frequencies of entity categories across textual sections. It is intended to answer the prominence of categories of entities across the text and reveal their change across the flow of the text and successive pilgrimage stages. 
+      A Streamgraph in ThemeRiver showing aggregated frequencies of entity categories across textual sections. It is intended to answer the prominence of categories of entities across the text and reveal their change across the flow of the text and successive pilgrimage stages. 
 
-The Dot Raster Plot involved five separate plots of individual entity mentions, and preserved sparseness and variation across each element in the entity. It was intended to show which element contributed to the prominence of each category and in which sections they were distributed.
+      The Dot Raster Plot involved five separate plots of individual entity mentions, and preserved sparseness and variation across each element in the entity. It was intended to show which element contributed to the prominence of each category and in which sections they were distributed.
 
 ## Streamgraph: From Nested JSON to a Plot-Ready Long-Form Table
 
-A Python script was required to parse aggregate counts of each category per section from the nested tree-structure JSON file and create a long-form Data Frame. A recursive function flattens the tree into the section_entity_counts.json format. To prevent lexicographical sorting errors (e.g., '10.3.2' appearing before '2.1.1'), section IDs were converted from strings to numericals for correct sorting.
+A Python script was required to parse aggregate counts of each category per section from the nested tree-structure JSON file and create a long-form Data Frame. 
 
-For example: "10.3.2" to (10, 3, 2)
-
-A long-form Data Frame with rows of (section_id, category, count), as it is the required format for plotting libraries.
+A recursive function flattens the tree into the section_entity_counts.json format. To prevent lexicographical sorting errors (e.g., '10.3.2' appearing before '2.1.1'), section IDs were converted from strings to numericals for correct sorting. For example: "10.3.2" to (10, 3, 2). A long-form Data Frame with rows of (section_id, category, count), as it is the required format for plotting libraries.
 
 # Interactive Streamgraph
 
@@ -168,17 +166,17 @@ All categories (Place names, Ritual concepts, Sacred objects, Revered persons, E
 
 The Dot Raster plot was modified by two additions: a summary panel and a line connecting entities across sections. 
 
-The summary panel of top entities makes it easier to answer “what is prominent” without manually counting dots
+* The summary panel of top entities makes it easier to answer “what is prominent” without manually counting dots
 
-The red lines behind dots for entities with >1 mention help us trace distribution patterns for a given entity across multiple sections
+* The red lines behind dots for entities with >1 mention help us trace distribution patterns for a given entity across multiple sections
 
-line_df = dot_df.groupby(...).filter(lambda x: len(x) > 1)
+     line_df = dot_df.groupby(...).filter(lambda x: len(x) > 1)
 
 # Findings
 
 Due to the limited scope of this Mini Project, this blog intends to answer the second question raised in the beginning, i.e.,
 
-What ritual, spatial, and religious elements are prominent in the guidebook? How are they distributed across different sections of the guidebook? What does this tell us about the significance of certain individuals, places, and language in the migrant pilgrimage?
+     What ritual, spatial, and religious elements are prominent in the guidebook? How are they distributed across different sections of the guidebook? What does this tell us about the significance of certain individuals, places, and language in the migrant pilgrimage?
 
 This will be attempted by combining macro-patterns and micro-details as visualized through Streamgraph and Dot Raster Plots. The high-level ‘weather patterns’ offered by streamgraph could be fruitfully related to the microscopic details offered by  Dot Raster Plots.
 
