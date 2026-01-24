@@ -70,6 +70,8 @@ The objective here was to transform a linear, textual account of a sacred pilgri
 
 This visualization was first attempted through QGIS. However, this created several problems: the road layers were often polygonal or missing crucial segments, the sacred spaces were not routable since QGIS lacked the required network data, and complex geometry corrections and calculations were constantly required. It was thus concluded that QGIS introduced overhead with limited analytical value
 
+![QGIS sample]({{site.baseurl}}images/qgis_sample.png)
+
 ## The Breakthrough (OpenRouteService)
 
 Open Route Services allowed a breakthrough with its free API key available to GitHub users. It allowed automated, realistic routing along roads and walkways, and handled multi-modal travel (driving and walking). An interactive and animated spatial geography of migrant pilgrimage was thus achieved through a combination of Python libraries, including Folium, and plugins such as AntPath
