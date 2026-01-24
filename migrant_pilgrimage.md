@@ -54,9 +54,9 @@ Whenever Python encounters a new heading, if it is deeper (e.g., ### \|\| after 
 
 The parsed hierarchical structure in the above step allows for recursive, section-level analysis. Using this structure, the text of each section and subsection was sent to an OpenAl model. A domain-specific prompt was then sent to the model to extract entities into predefined categories, and the structured JSON output was attached back into the hierarchical document.
 
-    The Entity Categories extracted for the Malayalam portion of the text were: Revered Persons, Place Names, Sacred Objects, Everyday Objects, Ritual Concepts, Instructive Language
+* The Entity Categories extracted for the Malayalam portion of the text were: Revered Persons, Place Names, Sacred Objects, Everyday Objects, Ritual Concepts, Instructive Language
 
-   The Entity Categories extracted for the Arabic portion of the text were: Litanies & Recitations
+* The Entity Categories extracted for the Arabic portion of the text were: Litanies & Recitations
 
 The prompt was constantly updated to provide the best NER result. For instance, this involved 1) listing the Arabic task and Malayalam task separately as Part A and Part B, 2) providing conditions such as to list every entity in its unified noun form (despite appearing different inside phrases due to grammar, inflection, etc) to aggregate the same entities, 3) asking to preserve original script in the JSON result, etc. 
 
@@ -170,7 +170,7 @@ The Dot Raster plot was modified by two additions: a summary panel and a line co
 
 * The red lines behind dots for entities with >1 mention help us trace distribution patterns for a given entity across multiple sections
 
-     line_df = dot_df.groupby(...).filter(lambda x: len(x) > 1)
+        line_df = dot_df.groupby(...).filter(lambda x: len(x) > 1)
 
 # Findings
 
