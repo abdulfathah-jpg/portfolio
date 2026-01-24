@@ -14,11 +14,11 @@ This Mini Project explores the spatial and ritual mobility of Malayalee migrants
 
 This project takes up three significant questions:
 
-1.	How does an Umrah guidebook produced by Malayalee migrants in the Gulf construct an alternative spatial geography of Umrah pilgrimage outside state-mandated geography?
+     1.	How does an Umrah guidebook produced by Malayalee migrants in the Gulf construct an alternative spatial geography of Umrah pilgrimage outside state-mandated geography?
    
-3.	What ritual, spatial, and religious elements are prominent in the guidebook? How are they distributed across different sections of the guidebook? What does this tell us about the significance of certain individuals, places, and language in the migrant pilgrimage?
+     3.	What ritual, spatial, and religious elements are prominent in the guidebook? How are they distributed across different sections of the guidebook? What does this tell us about the significance of certain individuals, places, and language in the migrant pilgrimage?
 
-4.	How do different entities, such as sacred places and revered persons, relate to one another, and what networks or clusters emerge from these relationships?
+     4.	How do different entities, such as sacred places and revered persons, relate to one another, and what networks or clusters emerge from these relationships?
 
 # Data Corpus
 
@@ -48,7 +48,7 @@ The problem at this stage is how to transform a flat list of headings (`### \|�
 
 Whenever Python encounters a new heading, if it is deeper (e.g., ### \|\| after ### \|), it's nested as a child. If it is at the same level as before, the previous sibling node is closed. If it is shallower than before, the parser climbs up the tree and closes child and parent nodes. This technique, which is usually used in compilers and XML tokenizers, allows us to create a clean semantic tree rather than a flat list. 
 
-heading_match = re.match(r'^(###\s+(\|+))\s*(.*)', line)
+                 heading_match = re.match(r'^(###\s+(\|+))\s*(.*)', line)
 
 ## Step 3: Enriching the Text with Named Entity Recognition
 
@@ -184,14 +184,14 @@ This will be attempted by combining macro-patterns and micro-details as visualiz
 
 It is evident from the streamgraph that the sections of the pilgrimage guidebook could be understood as a tripartite structure involving Preparation Phase (early sections), Ritual Performance Phase (middle sections), and Remembrance and Reflection Phase (final sections). It reifies our hypothesis that the guidebook is thus organized as a ritual lifecycle rather than as a narrative or thematic encyclopedia of the Umrah pilgrimage. The concentration of entities related to everyday objects, instructive language, and ritual concepts in the Preparation Phase suggests a strong emphasis on bodily discipline and readiness before embarking on primary rituals. The ritual performance stage shows a high concentration of ritual concepts, but also place names, the continued presence of instructional language, and a slow increase in mention of sacred objects. Arabic litanies appear as long, lone entities and indicate long moments of heightened recitations without social interruptions. The remembrance phrase shows a decline in ritual concepts and instructive language, and a marked increase in mention of revered persons and sacred objects. This shows a stage in which attention shifts to emotional engagement with sacred history. 
 
-•	Ritual concepts are evenly distributed, but as expected, there are repeated mentions of ihram, niyyat, rakaʿat, sunnat, and umrah, and a high concentration in Jamʿ & Qasr and Tawaf sections. While these points suggest ritual intensity, overall ritual could be framed as a condition of the guidebook, rather than as an event
+*	Ritual concepts are evenly distributed, but as expected, there are repeated mentions of ihram, niyyat, rakaʿat, sunnat, and umrah, and a high concentration in Jamʿ & Qasr and Tawaf sections. While these points suggest ritual intensity, overall ritual could be framed as a condition of the guidebook, rather than as an event
 
-•	The distribution of Arabic litanies indicates long moments when sacred speech is a requirement, and they function as ritual punctuations rather than narrative content in the guidebook.
+*	The distribution of Arabic litanies indicates long moments when sacred speech is a requirement, and they function as ritual punctuations rather than narrative content in the guidebook.
 
-•	Different singularly mentioned place names are concentrated in sections on Miqat and Mazarat (sites of visitation), while there is frequent mention across the text of Masjid al-Haram, Safa, and Marwa.
+*	Different singularly mentioned place names are concentrated in sections on Miqat and Mazarat (sites of visitation), while there is frequent mention across the text of Masjid al-Haram, Safa, and Marwa.
 
-•	Among the Revered Persons, the Prophet’s name is mentioned for a disproportionate seventeen times (seconded by Ibrahim, mentioned three times) and is evenly distributed. This shows the inextricability of the individuals, particularly the prophetic exemplar, as the structuring feature of pilgrimage in the vision of Malayalee migrants as a predominantly Sunni-Sufi community. The high concentration of revered persons at sections on Jannat al-Baqi’ and Mazarat further reifies this hierarchy of religious memory. The absence of revered persons, mostly from procedural and ritual sections, additionally shows how personalities function less as legal authorities and more as objects of remembrance in this text
+*	Among the Revered Persons, the Prophet’s name is mentioned for a disproportionate seventeen times (seconded by Ibrahim, mentioned three times) and is evenly distributed. This shows the inextricability of the individuals, particularly the prophetic exemplar, as the structuring feature of pilgrimage in the vision of Malayalee migrants as a predominantly Sunni-Sufi community. The high concentration of revered persons at sections on Jannat al-Baqi’ and Mazarat further reifies this hierarchy of religious memory. The absence of revered persons, mostly from procedural and ritual sections, additionally shows how personalities function less as legal authorities and more as objects of remembrance in this text
 
-•	The domination of instructional terms like obligation, recite, to do, bear in mind, carry out, and its concentration primarily in the Preparation section, and secondarily in Tawaf and Sa’y sections, suggests that guidebook’s authority is expressed primarily through imperative language. It is particularly concerned at discipline of pilgrims as they depart and with errors that are bound to invalidate the ritual.
+*	The domination of instructional terms like obligation, recite, to do, bear in mind, carry out, and its concentration primarily in the Preparation section, and secondarily in Tawaf and Sa’y sections, suggests that guidebook’s authority is expressed primarily through imperative language. It is particularly concerned at discipline of pilgrims as they depart and with errors that are bound to invalidate the ritual.
 
-•	A high concentration of everyday objects in the Items to Keep in Travel section is expected. The largest count for Hair might indicate its seamless presence not just in travel-related matters, but also primarily in the pilgrimage ritual of removing hair. 
+*	A high concentration of everyday objects in the Items to Keep in Travel section is expected. The largest count for Hair might indicate its seamless presence not just in travel-related matters, but also primarily in the pilgrimage ritual of removing hair. 
